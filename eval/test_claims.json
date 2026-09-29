@@ -1,37 +1,106 @@
 [
   {
     "id": "scenario_1",
-    "category": "Clear-false",
+    "category": "Physical Myth",
     "claim": "The Great Wall of China is visible from space with the naked eye.",
     "expected_verdict": "false",
-    "expected_max_confidence": 100
+    "expected_max_confidence": 100,
+    "demo_focus": "Debunks popular optical myth using astronaut observations and human eye resolving limits."
   },
   {
     "id": "scenario_2",
-    "category": "Clear-true",
+    "category": "Authoritative Consensus",
     "claim": "Regular exercise reduces the risk of cardiovascular disease.",
     "expected_verdict": "true",
-    "expected_max_confidence": 100
+    "expected_max_confidence": 100,
+    "demo_focus": "Validates robust Tier-1 medical epidemiological consensus (AHA, Lancet)."
   },
   {
     "id": "scenario_3",
-    "category": "Genuinely ambiguous",
+    "category": "Genuinely Ambiguous",
     "claim": "Moderate coffee consumption increases the risk of heart disease.",
     "expected_verdict": "unverifiable",
-    "expected_max_confidence": 85
+    "expected_max_confidence": 85,
+    "demo_focus": "Tests epistemic calibration: system hedges instead of forcing binary True/False."
   },
   {
     "id": "scenario_4",
-    "category": "Technically true / Misleading",
+    "category": "Misleading Climate",
     "claim": "Global average temperature increase of 1.5C has no impact on extreme weather events.",
     "expected_verdict": "false",
-    "expected_max_confidence": 100
+    "expected_max_confidence": 100,
+    "demo_focus": "Tests refutation of cherry-picked denialist climate claims using IPCC data."
   },
   {
     "id": "scenario_5",
-    "category": "Time-sensitive",
+    "category": "Time-Sensitive Data",
     "claim": "Global lithium ion battery production volume doubled in the past 24 months.",
     "expected_verdict": "unverifiable",
-    "expected_max_confidence": 90
+    "expected_max_confidence": 90,
+    "demo_focus": "Identifies time-bound claims where industrial registry data is still being compiled."
+  },
+  {
+    "id": "scenario_6",
+    "category": "Neuroscience Myth",
+    "claim": "Humans only use 10% of their brains.",
+    "expected_verdict": "false",
+    "expected_max_confidence": 100,
+    "demo_focus": "Debunks persistent pop-culture myth using modern fMRI and evolutionary metabolic evidence."
+  },
+  {
+    "id": "scenario_7",
+    "category": "Retracted Medical Myth",
+    "claim": "Childhood vaccines cause autism spectrum disorder.",
+    "expected_verdict": "false",
+    "expected_max_confidence": 100,
+    "demo_focus": "Verifies historical retraction of fraudulent studies and cites multi-cohort trials (CDC, WHO)."
+  },
+  {
+    "id": "scenario_8",
+    "category": "Biomechanical Myth",
+    "claim": "Habitual knuckle cracking causes arthritis in human hand joints.",
+    "expected_verdict": "false",
+    "expected_max_confidence": 100,
+    "demo_focus": "Explains nitrogen cavitation mechanics and cites Donald Unger clinical cohort study."
+  },
+  {
+    "id": "scenario_9",
+    "category": "Historical Propaganda Myth",
+    "claim": "Eating carrots significantly improves human night vision beyond normal acuity.",
+    "expected_verdict": "false",
+    "expected_max_confidence": 100,
+    "demo_focus": "Traces WWII RAF radar deception campaign and separates deficiency cure from visual enhancement."
+  },
+  {
+    "id": "scenario_10",
+    "category": "Pediatric Misconception",
+    "claim": "Sugar intake causes acute hyperactivity and ADHD behavioral symptoms in children.",
+    "expected_verdict": "false",
+    "expected_max_confidence": 90,
+    "demo_focus": "Uncovers double-blind placebo trials (JAMA) revealing parental expectation bias."
+  },
+  {
+    "id": "scenario_11",
+    "category": "Genuinely Ambiguous",
+    "claim": "Intermittent fasting is inherently superior to standard caloric restriction for fat loss.",
+    "expected_verdict": "unverifiable",
+    "expected_max_confidence": 85,
+    "demo_focus": "Demonstrates nuanced synthesis: isocaloric comparison reveals equivalent fat loss (NEJM, JAMA)."
+  },
+  {
+    "id": "scenario_12",
+    "category": "Fallacy Detection (Correlation != Causation)",
+    "claim": "Higher per-capita chocolate consumption causes countries to produce more Nobel laureates.",
+    "expected_verdict": "false",
+    "expected_max_confidence": 95,
+    "demo_focus": "Demonstrates Cross-Examiner catching Ecological Fallacy and spurious confounding variables."
+  },
+  {
+    "id": "scenario_13",
+    "category": "Established Scientific Fact",
+    "claim": "Cigarette smoking is a direct primary cause of human lung cancer.",
+    "expected_verdict": "true",
+    "expected_max_confidence": 100,
+    "demo_focus": "Confirms molecular oncogenesis (TP53 mutations) and unequivocal dose-response epidemiology."
   }
 ]

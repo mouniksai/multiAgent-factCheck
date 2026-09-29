@@ -244,11 +244,19 @@ st.sidebar.markdown("""
 
 benchmark_scenarios = {
     "Select benchmark preset...": "",
-    "1. Clear False (Space Myth)": "The Great Wall of China is visible from space with the naked eye.",
-    "2. Clear True (Cardiology)": "Regular exercise reduces the risk of cardiovascular disease.",
-    "3. Genuinely Ambiguous (Caffeine)": "Moderate coffee consumption increases the risk of heart disease.",
-    "4. Misleading Statistic (Climate)": "Global average temperature increase of 1.5C has no impact on extreme weather events.",
-    "5. Time-Sensitive (Clean Energy)": "Global lithium ion battery production volume doubled in the past 24 months."
+    "🧠 Myth: Humans only use 10% of their brains": "Humans only use 10% of their brains.",
+    "💉 Myth: Childhood vaccines cause autism": "Childhood vaccines cause autism spectrum disorder.",
+    "🦴 Myth: Cracking knuckles causes arthritis": "Habitual knuckle cracking causes arthritis in human hand joints.",
+    "🥕 Myth: Carrots significantly improve night vision": "Eating carrots significantly improves human night vision beyond normal acuity.",
+    "🍬 Myth: Sugar causes hyperactivity in children": "Sugar intake causes acute hyperactivity and ADHD behavioral symptoms in children.",
+    "🍫 Fallacy: Chocolate consumption boosts Nobel laureates": "Higher per-capita chocolate consumption causes countries to produce more Nobel laureates.",
+    "🥗 Ambiguous: Intermittent fasting vs calorie restriction": "Intermittent fasting is inherently superior to standard caloric restriction for fat loss.",
+    "☕ Ambiguous: Coffee and cardiovascular risk": "Moderate coffee consumption increases the risk of heart disease.",
+    "🧱 Clear False: Great Wall visible from space": "The Great Wall of China is visible from space with the naked eye.",
+    "🌡️ Clear False: 1.5C warming has no weather impact": "Global average temperature increase of 1.5C has no impact on extreme weather events.",
+    "🫀 Clear True: Exercise reduces cardiovascular disease": "Regular exercise reduces the risk of cardiovascular disease.",
+    "🚬 Clear True: Cigarette smoking causes lung cancer": "Cigarette smoking is a direct primary cause of human lung cancer.",
+    "🔋 Time-Sensitive: Lithium battery volume doubled": "Global lithium ion battery production volume doubled in the past 24 months."
 }
 
 preset_choice = st.sidebar.selectbox("🎯 Benchmark Presets", list(benchmark_scenarios.keys()))

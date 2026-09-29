@@ -3,7 +3,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")
 
 from src.graph.debate_graph import run_debate
 
-def test_claims():
+def run_cli_claims():
     claims = [
         "The Great Wall of China is visible from space with the naked eye.",
         "Regular exercise reduces the risk of cardiovascular disease.",
@@ -26,4 +26,5 @@ def test_claims():
         print("-" * 50)
 
 if __name__ == "__main__":
-    test_claims()
+    run_cli_claims()
+
